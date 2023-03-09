@@ -1,0 +1,85 @@
+---
+title: webinfra's blog
+page_id: index
+---
+{% include head.html %}
+
+<h1>Web Infrastructure Team</h1>
+<div style="overflow: hidden;">
+  <div class="qrcode">
+    <img src="/images/webinfra-qrcode.png" width="110" height="110" style="float: left; margin-right: 5px;" />
+    Our primitive goal is to provide e<string>X</string>cellent technical solutions to help the company's business grow, and build an open technical ecology to promote the development of frontend technology in the company and the industry.
+    <i>@ByteDance</i>
+    <br/><br/>
+    <i>Follow us on WeChat.</i>
+  </div>
+</div>
+
+<h1>Opening Jobs</h1>
+<ol>
+  {% for post in site.posts %}
+    {% if post.url == "/about" or post.url == "/en/about" or post.url == "/sg" %}
+    <li>
+      <a href="{{ post.url }}">🔥️{{ post.title | escape_html }}</a>
+      <time>{{ post.date | date_to_string }}</time>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ol>
+
+
+<h1>Open Source Projects</h1>
+<ol>
+  <li><a href="https://www.rspack.dev/blog/announcement.html">Rspack (A fast Rust-based web bundler)</a></li>
+  <li><a href="https://github.com/modern-js-dev/modern.js">Modern.js</a></li>
+  <li><a href="https://github.com/modern-js-dev/garfish">Garfish (A powerful micro frontend framework)</a></li>
+</ol>
+
+
+<h1>Publications</h1>
+<ol>
+  <li><a href="https://zhuanlan.zhihu.com/p/609430861">how pnpm links</a> <time>2023/02/25</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/JtDZjj832h08O-1csh938g">NAPI-RS 是怎么工作的: 从 NAPI 到 Build Script & FFI</a> <time>2023/02/17</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/tNs5CVdmj4DepYmELWjdzA">Monorepo 下 Git 工作流的最佳实践</a> <time>2022/12/29</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/w4FS5sBcHqRl-Saqi19Y6g">React Streaming SSR 原理解析</a> <time>2022/12/16</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/B-XLvW00vl5RE1Ur3EW4ow">React Server Component: 混合式渲染</a> <time>2022/12/01</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/MfztwYyEH30F9IL0keAM5w">Islands 架构原理和实践</a> <time>2022/10/17</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/nk5SN8AKwyFkUTEOiLCBdQ">Bundle-less 的思考和实践分享</a> <time>2022/08/12</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/DuQzAumv_eB6Wc-YGVbe5g">Esbuild Bundler HMR</a> <time>2022/07/15</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/L9wbfNG5fTXF5bx7dcgj4Q">字节跳动是如何落地微前端的</a> <time>2021/09/30</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/ognHGg6ptHmvWOWb9B4bPw">Node.js 底层原理</a> <time>2021/09/16</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/18jSRceR8ahW0SPn74-F0w">应用性能前端监控，字节跳动这些年经验都在这了</a> <time>2021/09/16</time></li> 
+  <li><a href="https://mp.weixin.qq.com/s/QeUwB_2mwhD4KWNyJsbojg">状态机系列 (一) : 令人头疼的状态管理</a> <time>2021/09/03</time></li> 
+  <li><a href="https://mp.weixin.qq.com/s/eJrudFf38eadZbqSMiyG-g">ESModule 系列 (二)：构建下一代基础设施 PDN</a> <time>2021/08/27</time></li> 
+  <li><a href="https://mp.weixin.qq.com/s/lVsKfVx_N33lu04HqzGZkA">未来前端构建工具链的故事里，会有这个 97 年的韩国小哥？</a> <time>2021/08/20</time></li> 
+  <li><a href="https://mp.weixin.qq.com/s/GLIlhURSrCYQ-8Bqg7i1kA">深入理解 Node.js 的 Inspector</a> <time>2021/08/03</time></li> 
+  <li><a href="https://mp.weixin.qq.com/s/9vOjjAmJ6V5gVz2bkwwBMQ">探索类型友好的 Node.js Web 框架</a> <time>2021/08/03</time></li> 
+  <li><a href="https://mp.weixin.qq.com/s/Ky6SoWJv85orqYioihTRqg">聊聊字节跳动 Node.js RPC 的设计实现</a> <time>2021/07/23</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/SBVE34dW9g4BsabmLJV9wg">Dan Abramov 访谈实录</a> <time>2021/07/12</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/J2fHm_mR7UE65q1vSQ9xpA">GMTC 2021 演讲 《字节跳动基于 Serverless 的前端研发模式升级》</a> <time>2021/07/07</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/0VDBAgEvqB1xiUs540Fu9A">迈入现代 Web 开发（GMTC 2021 演讲《字节跳动的现代 Web 开发实践》全文）</a> <time>2021/07/04</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/BbvJ-OfcS7Sa-e0Zq6iF1w">SourceMap 与前端异常监控</a> <time>2021/06/18</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/735yMXZr3GNafaS3mEy8lA">渐进式 Unbundled 开发工具探索之路</a> <time>2021/05/31</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/qDE68Z3JXHo0iBCanWIPuA">Build Systems à la Carte: Theory and Practice</a> <time>2021/05/27</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/3zXhCY6Xl-MB8Tp-Gnjctw">探索 Vue 3 中的 JSX</a> <time>2021/05/22</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/i1Y9GJAYMcCh1EPsJDWQtw">Why TypeScript?</a> <time>2021/05/21</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/DYYELKMGNuG56EREyLn37g">无码/低码新兴宇宙</a> <time>2021/05/14</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/0AHmP70HnLUZeJWQlRtUKw">ESModule 系列 ㈠ ：演进</a> <time>2021/05/07</time></li>
+  <li><a href="https://mp.weixin.qq.com/s/5jR1rgFc6mkwxpmdIDv_Hw">向现代 Javascript 转型</a> <time>2021/04/30</time></li>
+</ol>
+
+<!--
+<h1>Archives</h1>
+<ol>
+  {% for post in site.posts %}
+    {% if post.url == "/blog/2020/12/we-are-hiring" or post.url == "/bytedance/web-infra" or post.url == "/about" or post.url == "/en/about" or post.url == "/sg" %}
+    {% continue %}
+    {% endif %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title | escape_html }}</a>
+      <time>{{ post.date | date_to_string }}</time>
+    </li>
+  {% endfor %}
+</ol>
+-->
+

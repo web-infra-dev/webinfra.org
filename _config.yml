@@ -1,0 +1,17 @@
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+lsi:      false
+safe:     false
+pygments: true
+# markdown: redcarpet
+permalink: /blog/:year/:month/:title
+paginate: 12
+paginate_path: "articles/page:num"
+encoding: utf-8
+
+post_defaults:
+  layout: post
+
+redcarpet:
+  extensions: ["tables", "autolink"]
