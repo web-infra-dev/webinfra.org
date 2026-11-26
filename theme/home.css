@@ -68,16 +68,16 @@
 }
 .team-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 24px;
 }
 .team-projects a {
   display: grid;
-  gap: 10px;
+  grid-template-rows: auto 1fr auto;
+  gap: 8px;
   height: 100%;
   padding: 16px 6px 8px 0;
   border-top: 2px solid var(--rp-c-brand);
-  align-content: start;
 }
 .team-projects strong {
   font-size: 1.2rem;
@@ -85,6 +85,11 @@
 .team-projects span {
   font-size: 0.95rem;
   line-height: 1.5;
+}
+.team-projects small {
+  color: var(--rp-c-link);
+  font: 0.8rem/1.5 var(--rp-font-family-mono, monospace);
+  overflow-wrap: anywhere;
 }
 .team-channel-groups {
   --channel-accent: var(--rp-c-brand-light);
