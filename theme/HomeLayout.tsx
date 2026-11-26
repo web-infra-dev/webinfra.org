@@ -1,4 +1,3 @@
-import publications from './publications.json';
 import './home.css';
 
 const jobs = [
@@ -34,6 +33,54 @@ const projects = [
   { name: 'Garfish', repo: 'garfish', description: 'Micro frontend framework' },
 ];
 
+const wechatQrCode = '/images/webinfra-qrcode.png';
+
+const channelGroups = [
+  {
+    lang: 'en',
+    label: 'English',
+    channels: [
+      {
+        name: 'Blogs',
+        detail: 'web-infra-dev/blogs',
+        href: 'https://github.com/web-infra-dev/blogs',
+      },
+      {
+        name: 'Rspack Twitter',
+        detail: '@rspack_dev',
+        href: 'https://x.com/rspack_dev',
+      },
+      {
+        name: 'Midscene Twitter',
+        detail: '@midscene_ai',
+        href: 'https://x.com/midscene_ai',
+      },
+      {
+        name: 'Rspack Blog',
+        detail: 'rspack.rs/blog',
+        href: 'https://rspack.rs/blog/',
+      },
+    ],
+  },
+  {
+    lang: 'zh-CN',
+    label: '中文',
+    channels: [
+      {
+        name: '微信公众号',
+        detail: '微信扫码关注',
+        href: wechatQrCode,
+        qrCode: wechatQrCode,
+      },
+      {
+        name: '掘金',
+        detail: 'Web Infra 团队文章',
+        href: 'https://juejin.cn/team/6930945479362478092/posts',
+      },
+    ],
+  },
+];
+
 const jobDate = new Intl.DateTimeFormat('en-GB', {
   day: '2-digit',
   month: 'short',
@@ -45,25 +92,14 @@ export function HomeLayout() {
   return (
     <div className="team-home">
       <header className="team-intro">
-        <div>
-          <p className="team-byline">@ByteDance</p>
-          <h1>Web Infrastructure Team</h1>
-          <p className="team-mission">
-            Our primitive goal is to provide e<strong>X</strong>cellent
-            technical solutions to help the company's business grow, and build
-            an open technical ecology to promote the development of frontend
-            technology in the company and the industry.
-          </p>
-        </div>
-        <figure className="team-wechat">
-          <img
-            src="/images/webinfra-qrcode.png"
-            width="132"
-            height="132"
-            alt="Web Infra team WeChat QR code"
-          />
-          <figcaption>Follow us on WeChat.</figcaption>
-        </figure>
+        <p className="team-byline">@ByteDance</p>
+        <h1>Web Infrastructure Team</h1>
+        <p className="team-mission">
+          Our primitive goal is to provide e<strong>X</strong>cellent
+          technical solutions to help the company's business grow, and build
+          an open technical ecology to promote the development of frontend
+          technology in the company and the industry.
+        </p>
       </header>
 
       <section id="jobs" aria-labelledby="jobs-heading">
@@ -97,18 +133,40 @@ export function HomeLayout() {
         </ul>
       </section>
 
-      <section id="publications" aria-labelledby="publications-heading">
-        <h2 id="publications-heading">Publications</h2>
-        <ul className="team-entries">
-          {publications.map(({ title, url, date }) => (
-            <li key={url}>
-              <a href={url}>
-                <span>{title}</span>
-                <time dateTime={date}>{date.replaceAll('-', '/')}</time>
-              </a>
-            </li>
+      <section id="publications" aria-labelledby="team-updates">
+        <h2 id="team-updates">Team Updates</h2>
+        <div className="team-channel-groups">
+          {channelGroups.map(({ lang, label, channels }) => (
+            <div key={lang} lang={lang}>
+              <h3>{label}</h3>
+              <ul className="team-channels">
+                {channels.map(channel => (
+                  <li key={channel.href}>
+                    <a className="team-channel" href={channel.href}>
+                      <span className="team-channel-copy">
+                        <strong>{channel.name}</strong>
+                        <span>{channel.detail}</span>
+                      </span>
+                      {channel.qrCode ? (
+                        <img
+                          className="team-channel-qr"
+                          src={channel.qrCode}
+                          width="112"
+                          height="112"
+                          alt="查看 Web Infra 公众号二维码原图"
+                        />
+                      ) : (
+                        <span className="team-channel-arrow" aria-hidden="true">
+                          ↗
+                        </span>
+                      )}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
       </section>
     </div>
   );
