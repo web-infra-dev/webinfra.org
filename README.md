@@ -1,3 +1,3 @@
 # webinfra.org
 
-This is a mirror repo, please submit PR to https://github.com/leeight/leeight.github.com.
+The Web Infra team website at [webinfra.org](https://webinfra.org/). To update the site, open a pull request in this repository.
