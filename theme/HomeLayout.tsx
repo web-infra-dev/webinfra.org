@@ -12,7 +12,6 @@ const jobs = [
     title: '字节跳动 Web Infra 团队招聘信息',
     date: '2023-11-17',
   },
-  { href: '/sg', title: 'Singapore Team is hiring', date: '2021-01-30' },
 ];
 
 const projects = [

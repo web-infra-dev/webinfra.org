@@ -46,18 +46,6 @@ The Web Infra - Web Solutions team advocates for an **open-source, technology-dr
 - Value-Oriented:
   - Combine technological development with business growth, transform technological outcomes into business value, and provide input for the development and iteration of technology.
 
-## 🙋 Who We Are
-
-- [@Zack Jackson](https://github.com/ScriptedAlchemy): webpack core member, author of Module Federation.
-- [@hardfist](https://github.com/hardfist): Senior configuration engineer, pitfall troubleshooter, responsible for Rspack.
-- [@Boshen](https://github.com/boshen): Author of Oxc, contributor to Biome.
-- [@ulivz](https://github.com/ulivz): Vue team member, responsible for VuePress.
-- [@Amour1688](https://github.com/Amour1688): Vue team member, responsible for babel-plugin-jsx.
-- [@h-a-n-a](https://github.com/h-a-n-a): Focused on nativizing JS tool libraries, such as magic-string-rs.
-- [@bvanjoi](https://github.com/bvanjoi): Contributor to the Rust language.
-- [@sanyuan0704](https://github.com/sanyuan0704): Author of the WeChat account "Sanyuan Classmate", responsible for Rspress.
-- [@chenjiahan](https://github.com/chenjiahan): Author of Vant / Vant Weapp.
-
 ## 🍭 Position Information
 
 The Web Infra team is looking for experienced front-end engineers to join us in developing high-performance front-end tools and new products with an AI-first approach. This will enhance the development experience for both developers and users. As a member of the Web Infra team, you will:

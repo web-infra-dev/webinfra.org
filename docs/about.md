@@ -48,18 +48,6 @@ Web Infra - Web Solutions 团队推崇 **开源开放、技术驱动、价值导
 - 价值导向
   - 技术发展和业务发展相结合，将技术产出转化为业务价值，同时为技术发展、迭代提供输入
 
-## 🙋 我们都有谁
-
-- [@Zack Jackson](https://github.com/ScriptedAlchemy)：webpack core member，Module Federation 作者。
-- [@hardfist](https://github.com/hardfist)：资深配置工程师，踩坑工程师，负责 Rspack。
-- [@Boshen](https://github.com/boshen)：Oxc 作者，Biome 贡献者。
-- [@ulivz](https://github.com/ulivz)：Vue team member，负责 VuePress。
-- [@Amour1688](https://github.com/Amour1688)：Vue team member，负责 babel-plugin-jsx。
-- [@h-a-n-a](https://github.com/h-a-n-a)：专注于将 JS 工具库进行 native 化，如 magic-string-rs。
-- [@bvanjoi](https://github.com/bvanjoi)：Rust language 贡献者。
-- [@sanyuan0704](https://github.com/sanyuan0704)：公众号「三元同学」作者，负责 Rspress。
-- [@chenjiahan](https://github.com/chenjiahan)：Vant / Vant Weapp 作者。
-
 ## 🍭 岗位信息
 
 Web Infra 团队正在寻求经验丰富的前端工程师，来共同打造高性能前端工具和 AI-first 视角之下的新产品，从而给开发者、用户带来更好的开发体验、用户体验，作为 Web Infra 团队成员，你将：
