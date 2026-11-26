@@ -15,39 +15,9 @@ const jobs = [
 
 const projects = [
   {
-    name: 'Rspack',
-    repo: 'web-infra-dev/rspack',
-    description: 'A Rust-based web bundler with a webpack-compatible API.',
-  },
-  {
-    name: 'Rsbuild',
-    repo: 'web-infra-dev/rsbuild',
-    description: 'A build tool for web applications powered by Rspack.',
-  },
-  {
-    name: 'Rspress',
-    repo: 'web-infra-dev/rspress',
-    description: 'A static site generator for documentation, built on Rsbuild.',
-  },
-  {
-    name: 'Rsdoctor',
-    repo: 'web-infra-dev/rsdoctor',
-    description: 'A build analyzer for inspecting Rspack bundles and build times.',
-  },
-  {
-    name: 'Rslib',
-    repo: 'web-infra-dev/rslib',
-    description: 'A build tool for JavaScript and TypeScript libraries.',
-  },
-  {
-    name: 'Rstest',
-    repo: 'web-infra-dev/rstest',
-    description: 'A JavaScript testing framework powered by Rspack.',
-  },
-  {
-    name: 'Rslint',
-    repo: 'web-infra-dev/rslint',
-    description: 'An ESLint-compatible linter for JavaScript and TypeScript.',
+    name: 'Garfish',
+    repo: 'web-infra-dev/garfish',
+    description: 'A micro-frontend framework for combining independent web applications.',
   },
   {
     name: 'Midscene.js',
@@ -60,19 +30,49 @@ const projects = [
     description: 'A progressive web framework built on React and Rsbuild.',
   },
   {
-    name: 'Garfish',
-    repo: 'web-infra-dev/garfish',
-    description: 'A micro-frontend framework for combining independent web applications.',
-  },
-  {
     name: 'Module Federation',
     repo: 'module-federation/core',
     description: 'Tools for sharing modules at runtime across independent JavaScript applications.',
   },
   {
+    name: 'Rsbuild',
+    repo: 'web-infra-dev/rsbuild',
+    description: 'A build tool for web applications powered by Rspack.',
+  },
+  {
+    name: 'Rsdoctor',
+    repo: 'web-infra-dev/rsdoctor',
+    description: 'A build analyzer for inspecting Rspack bundles and build times.',
+  },
+  {
+    name: 'Rslib',
+    repo: 'web-infra-dev/rslib',
+    description: 'A build tool for JavaScript and TypeScript libraries.',
+  },
+  {
+    name: 'Rslint',
+    repo: 'web-infra-dev/rslint',
+    description: 'An ESLint-compatible linter for JavaScript and TypeScript.',
+  },
+  {
+    name: 'Rspack',
+    repo: 'web-infra-dev/rspack',
+    description: 'A Rust-based web bundler with a webpack-compatible API.',
+  },
+  {
+    name: 'Rspress',
+    repo: 'web-infra-dev/rspress',
+    description: 'A static site generator for documentation, built on Rsbuild.',
+  },
+  {
     name: 'Rstack CLI',
     repo: 'rstackjs/rstack-cli',
     description: 'A CLI for building, testing, linting, and formatting JavaScript projects.',
+  },
+  {
+    name: 'Rstest',
+    repo: 'web-infra-dev/rstest',
+    description: 'A JavaScript testing framework powered by Rspack.',
   },
 ];
 
@@ -170,7 +170,7 @@ export function HomeLayout() {
               <a href={`https://github.com/${repo}`}>
                 <strong>{name}</strong>
                 <span>{description}</span>
-                <small>github.com/{repo}</small>
+                <small>{repo}</small>
               </a>
             </li>
           ))}
