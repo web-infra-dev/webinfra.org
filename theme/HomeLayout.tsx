@@ -95,10 +95,10 @@ export function HomeLayout() {
         <p className="team-byline">@ByteDance</p>
         <h1>Web Infrastructure Team</h1>
         <p className="team-mission">
-          Our primitive goal is to provide e<strong>X</strong>cellent
-          technical solutions to help the company's business grow, and build
-          an open technical ecology to promote the development of frontend
-          technology in the company and the industry.
+          We are the Web Infra team at ByteDance. We build high-quality tools
+          and infrastructure for modern web development, and we are committed
+          to fostering an open ecosystem that supports developers both inside
+          and outside the company.
         </p>
       </header>
 
