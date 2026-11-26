@@ -15,11 +15,6 @@ const jobs = [
 
 const projects = [
   {
-    name: 'Garfish',
-    repo: 'web-infra-dev/garfish',
-    description: 'A micro-frontend framework for combining independent web applications.',
-  },
-  {
     name: 'Midscene.js',
     repo: 'web-infra-dev/midscene',
     description: 'An AI-powered SDK for automating user interfaces with natural language.',
