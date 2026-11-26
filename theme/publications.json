@@ -1,0 +1,157 @@
+[
+  {
+    "title": "Deep Dive into Top-level await",
+    "url": "https://github.com/orgs/web-infra-dev/discussions/9",
+    "date": "2023-10-26"
+  },
+  {
+    "title": "Rspress, the Rspack-based static site generator",
+    "url": "https://github.com/orgs/web-infra-dev/discussions/5",
+    "date": "2023-10-11"
+  },
+  {
+    "title": "Design Trade-offs in Bundler: The Rationale Behind Creating Rspack",
+    "url": "https://github.com/orgs/web-infra-dev/discussions/1",
+    "date": "2023-08-30"
+  },
+  {
+    "title": "how pnpm links",
+    "url": "https://zhuanlan.zhihu.com/p/609430861",
+    "date": "2023-02-25"
+  },
+  {
+    "title": "NAPI-RS 是怎么工作的: 从 NAPI 到 Build Script & FFI",
+    "url": "https://mp.weixin.qq.com/s/JtDZjj832h08O-1csh938g",
+    "date": "2023-02-17"
+  },
+  {
+    "title": "Monorepo 下 Git 工作流的最佳实践",
+    "url": "https://mp.weixin.qq.com/s/tNs5CVdmj4DepYmELWjdzA",
+    "date": "2022-12-29"
+  },
+  {
+    "title": "React Streaming SSR 原理解析",
+    "url": "https://mp.weixin.qq.com/s/w4FS5sBcHqRl-Saqi19Y6g",
+    "date": "2022-12-16"
+  },
+  {
+    "title": "React Server Component: 混合式渲染",
+    "url": "https://mp.weixin.qq.com/s/B-XLvW00vl5RE1Ur3EW4ow",
+    "date": "2022-12-01"
+  },
+  {
+    "title": "Islands 架构原理和实践",
+    "url": "https://mp.weixin.qq.com/s/MfztwYyEH30F9IL0keAM5w",
+    "date": "2022-10-17"
+  },
+  {
+    "title": "Bundle-less 的思考和实践分享",
+    "url": "https://mp.weixin.qq.com/s/nk5SN8AKwyFkUTEOiLCBdQ",
+    "date": "2022-08-12"
+  },
+  {
+    "title": "Esbuild Bundler HMR",
+    "url": "https://mp.weixin.qq.com/s/DuQzAumv_eB6Wc-YGVbe5g",
+    "date": "2022-07-15"
+  },
+  {
+    "title": "字节跳动是如何落地微前端的",
+    "url": "https://mp.weixin.qq.com/s/L9wbfNG5fTXF5bx7dcgj4Q",
+    "date": "2021-09-30"
+  },
+  {
+    "title": "Node.js 底层原理",
+    "url": "https://mp.weixin.qq.com/s/ognHGg6ptHmvWOWb9B4bPw",
+    "date": "2021-09-16"
+  },
+  {
+    "title": "应用性能前端监控，字节跳动这些年经验都在这了",
+    "url": "https://mp.weixin.qq.com/s/18jSRceR8ahW0SPn74-F0w",
+    "date": "2021-09-16"
+  },
+  {
+    "title": "状态机系列 (一) : 令人头疼的状态管理",
+    "url": "https://mp.weixin.qq.com/s/QeUwB_2mwhD4KWNyJsbojg",
+    "date": "2021-09-03"
+  },
+  {
+    "title": "ESModule 系列 (二)：构建下一代基础设施 PDN",
+    "url": "https://mp.weixin.qq.com/s/eJrudFf38eadZbqSMiyG-g",
+    "date": "2021-08-27"
+  },
+  {
+    "title": "未来前端构建工具链的故事里，会有这个 97 年的韩国小哥？",
+    "url": "https://mp.weixin.qq.com/s/lVsKfVx_N33lu04HqzGZkA",
+    "date": "2021-08-20"
+  },
+  {
+    "title": "深入理解 Node.js 的 Inspector",
+    "url": "https://mp.weixin.qq.com/s/GLIlhURSrCYQ-8Bqg7i1kA",
+    "date": "2021-08-03"
+  },
+  {
+    "title": "探索类型友好的 Node.js Web 框架",
+    "url": "https://mp.weixin.qq.com/s/9vOjjAmJ6V5gVz2bkwwBMQ",
+    "date": "2021-08-03"
+  },
+  {
+    "title": "聊聊字节跳动 Node.js RPC 的设计实现",
+    "url": "https://mp.weixin.qq.com/s/Ky6SoWJv85orqYioihTRqg",
+    "date": "2021-07-23"
+  },
+  {
+    "title": "Dan Abramov 访谈实录",
+    "url": "https://mp.weixin.qq.com/s/SBVE34dW9g4BsabmLJV9wg",
+    "date": "2021-07-12"
+  },
+  {
+    "title": "GMTC 2021 演讲 《字节跳动基于 Serverless 的前端研发模式升级》",
+    "url": "https://mp.weixin.qq.com/s/J2fHm_mR7UE65q1vSQ9xpA",
+    "date": "2021-07-07"
+  },
+  {
+    "title": "迈入现代 Web 开发（GMTC 2021 演讲《字节跳动的现代 Web 开发实践》全文）",
+    "url": "https://mp.weixin.qq.com/s/0VDBAgEvqB1xiUs540Fu9A",
+    "date": "2021-07-04"
+  },
+  {
+    "title": "SourceMap 与前端异常监控",
+    "url": "https://mp.weixin.qq.com/s/BbvJ-OfcS7Sa-e0Zq6iF1w",
+    "date": "2021-06-18"
+  },
+  {
+    "title": "渐进式 Unbundled 开发工具探索之路",
+    "url": "https://mp.weixin.qq.com/s/735yMXZr3GNafaS3mEy8lA",
+    "date": "2021-05-31"
+  },
+  {
+    "title": "Build Systems à la Carte: Theory and Practice",
+    "url": "https://mp.weixin.qq.com/s/qDE68Z3JXHo0iBCanWIPuA",
+    "date": "2021-05-27"
+  },
+  {
+    "title": "探索 Vue 3 中的 JSX",
+    "url": "https://mp.weixin.qq.com/s/3zXhCY6Xl-MB8Tp-Gnjctw",
+    "date": "2021-05-22"
+  },
+  {
+    "title": "Why TypeScript?",
+    "url": "https://mp.weixin.qq.com/s/i1Y9GJAYMcCh1EPsJDWQtw",
+    "date": "2021-05-21"
+  },
+  {
+    "title": "无码/低码新兴宇宙",
+    "url": "https://mp.weixin.qq.com/s/DYYELKMGNuG56EREyLn37g",
+    "date": "2021-05-14"
+  },
+  {
+    "title": "ESModule 系列 ㈠ ：演进",
+    "url": "https://mp.weixin.qq.com/s/0AHmP70HnLUZeJWQlRtUKw",
+    "date": "2021-05-07"
+  },
+  {
+    "title": "向现代 Javascript 转型",
+    "url": "https://mp.weixin.qq.com/s/5jR1rgFc6mkwxpmdIDv_Hw",
+    "date": "2021-04-30"
+  }
+]

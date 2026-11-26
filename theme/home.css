@@ -1,0 +1,120 @@
+.team-home {
+  width: min(1080px, 100% - 48px);
+  margin: 0 auto 80px;
+  color: var(--rp-c-text-1);
+}
+.team-intro {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: clamp(32px, 6vw, 88px);
+  padding: clamp(48px, 8vw, 104px) 0;
+  border-bottom: 2px solid currentColor;
+}
+.team-byline,
+.team-entries time {
+  font: 500 0.85rem/1.5 var(--rp-font-family-mono, monospace);
+}
+.team-byline {
+  color: var(--rp-c-brand);
+}
+.team-intro h1 {
+  max-width: 13em;
+  margin: 12px 0 24px;
+  font-size: clamp(2.75rem, 6vw, 5.4rem);
+  letter-spacing: -0.055em;
+  line-height: 1;
+  font-weight: 720;
+}
+.team-mission {
+  max-width: 66ch;
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+.team-wechat {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+}
+.team-wechat img {
+  border: 8px solid white;
+  box-sizing: content-box;
+}
+.team-wechat figcaption,
+.team-projects span,
+.team-entries time {
+  color: var(--rp-c-text-2);
+}
+.team-wechat figcaption {
+  font-size: 0.875rem;
+}
+.team-home section {
+  margin-top: 48px;
+  scroll-margin-top: 90px;
+}
+.team-home h2 {
+  margin-bottom: 16px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 650;
+  letter-spacing: -0.035em;
+}
+.team-home ul {
+  list-style: none;
+  padding: 0;
+}
+.team-home li a {
+  color: inherit;
+  text-decoration: none;
+}
+.team-home li a:hover,
+.team-home li a:focus-visible {
+  color: var(--rp-c-brand);
+}
+.team-entries li {
+  border-top: 1px solid var(--rp-c-divider);
+}
+.team-entries a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 13px 0;
+}
+.team-entries time {
+  white-space: nowrap;
+}
+.team-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 16px;
+}
+.team-projects a {
+  display: grid;
+  gap: 10px;
+  height: 100%;
+  padding: 16px 6px 8px 0;
+  border-top: 2px solid var(--rp-c-brand);
+  align-content: start;
+}
+.team-projects strong {
+  font-size: 1.2rem;
+}
+.team-projects span {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+@media (max-width: 640px) {
+  .team-home {
+    width: calc(100% - 32px);
+  }
+  .team-intro {
+    grid-template-columns: 1fr;
+  }
+  .team-wechat {
+    justify-self: start;
+  }
+  .team-entries a {
+    display: grid;
+    gap: 4px;
+  }
+}

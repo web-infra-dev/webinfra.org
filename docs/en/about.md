@@ -1,9 +1,12 @@
 ---
-layout: post
 title: Mountain View Team / Seattle Team is hiring
-author: web infra team
-permalink: /en/about
+description: Meet the ByteDance Web Infra team and read about its engineering roles and application process.
+sidebar: false
 ---
+
+# Mountain View Team / Seattle Team is hiring
+
+17 Nov 2023 · [web infra team](/)
 
 [简体中文版本](/about)
 
@@ -42,18 +45,6 @@ The Web Infra - Web Solutions team advocates for an **open-source, technology-dr
   - Professionalism is the guarantee for solving various problems. The team focuses on technology exploration, expanding the technological horizon, and injecting more possibilities into the development of the Web ecosystem.
 - Value-Oriented:
   - Combine technological development with business growth, transform technological outcomes into business value, and provide input for the development and iteration of technology.
-
-## 🙋 Who We Are
-
-- [@Zack Jackson](https://github.com/ScriptedAlchemy): webpack core member, author of Module Federation.
-- [@hardfist](https://github.com/hardfist): Senior configuration engineer, pitfall troubleshooter, responsible for Rspack.
-- [@Boshen](https://github.com/boshen): Author of Oxc, contributor to Biome.
-- [@ulivz](https://github.com/ulivz): Vue team member, responsible for VuePress.
-- [@Amour1688](https://github.com/Amour1688): Vue team member, responsible for babel-plugin-jsx.
-- [@h-a-n-a](https://github.com/h-a-n-a): Focused on nativizing JS tool libraries, such as magic-string-rs.
-- [@bvanjoi](https://github.com/bvanjoi): Contributor to the Rust language.
-- [@sanyuan0704](https://github.com/sanyuan0704): Author of the WeChat account "Sanyuan Classmate", responsible for Rspress.
-- [@chenjiahan](https://github.com/chenjiahan): Author of Vant / Vant Weapp.
 
 ## 🍭 Position Information
 
