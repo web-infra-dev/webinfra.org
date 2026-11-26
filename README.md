@@ -2,6 +2,6 @@
 
 The [Web Infra team website](https://webinfra.org/), built with Rspress.
 
-Run `npm ci` and `npm run dev` for local development. Run `npm run build` to generate the production site in `doc_build/`, and `npm run preview` to preview it locally.
+Run `pnpm install` and `pnpm dev` for local development. Run `pnpm build` to generate the production site in `doc_build/`, and `pnpm preview` to preview it locally.
 
-Cloudflare Pages uses `main` as the production branch. Configure the build command as `npm run build` and the output directory as `doc_build`.
+Cloudflare Pages uses `main` as the production branch. Configure the build command as `pnpm build` and the output directory as `doc_build`.
