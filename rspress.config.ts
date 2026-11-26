@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     darkMode: 'force-dark',
     socialLinks: [
-      { icon: 'github', content: 'https://github.com/web-infra-dev' },
+      { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev' },
     ],
   },
   head: [
