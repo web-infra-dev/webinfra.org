@@ -15,22 +15,60 @@ const jobs = [
 
 const projects = [
   {
-    name: 'Rspack',
-    repo: 'rspack',
-    description: 'Fast Rust-based web bundler',
-  },
-  { name: 'Rsbuild', repo: 'rsbuild', description: 'Rspack-based build tool' },
-  {
-    name: 'Rspress',
-    repo: 'rspress',
-    description: 'Rspack-based static site generator',
+    name: 'Midscene.js',
+    repo: 'web-infra-dev/midscene',
+    description: 'An AI-powered SDK for automating user interfaces with natural language.',
   },
   {
     name: 'Modern.js',
-    repo: 'modern.js',
-    description: 'Web engineering system',
+    repo: 'web-infra-dev/modern.js',
+    description: 'A progressive web framework built on React and Rsbuild.',
   },
-  { name: 'Garfish', repo: 'garfish', description: 'Micro frontend framework' },
+  {
+    name: 'Module Federation',
+    repo: 'module-federation/core',
+    description: 'Tools for sharing modules at runtime across independent JavaScript applications.',
+  },
+  {
+    name: 'Rsbuild',
+    repo: 'web-infra-dev/rsbuild',
+    description: 'A build tool for web applications powered by Rspack.',
+  },
+  {
+    name: 'Rsdoctor',
+    repo: 'web-infra-dev/rsdoctor',
+    description: 'A build analyzer for inspecting Rspack bundles and build times.',
+  },
+  {
+    name: 'Rslib',
+    repo: 'web-infra-dev/rslib',
+    description: 'A build tool for JavaScript and TypeScript libraries.',
+  },
+  {
+    name: 'Rslint',
+    repo: 'web-infra-dev/rslint',
+    description: 'An ESLint-compatible linter for JavaScript and TypeScript.',
+  },
+  {
+    name: 'Rspack',
+    repo: 'web-infra-dev/rspack',
+    description: 'A Rust-based web bundler with a webpack-compatible API.',
+  },
+  {
+    name: 'Rspress',
+    repo: 'web-infra-dev/rspress',
+    description: 'A static site generator for documentation, built on Rsbuild.',
+  },
+  {
+    name: 'Rstack CLI',
+    repo: 'rstackjs/rstack-cli',
+    description: 'A CLI for building, testing, linting, and formatting JavaScript projects.',
+  },
+  {
+    name: 'Rstest',
+    repo: 'web-infra-dev/rstest',
+    description: 'A JavaScript testing framework powered by Rspack.',
+  },
 ];
 
 const wechatQrCode = '/images/webinfra-qrcode.png';
@@ -124,9 +162,10 @@ export function HomeLayout() {
         <ul className="team-projects">
           {projects.map(({ name, repo, description }) => (
             <li key={repo}>
-              <a href={`https://github.com/web-infra-dev/${repo}`}>
+              <a href={`https://github.com/${repo}`}>
                 <strong>{name}</strong>
                 <span>{description}</span>
+                <small>{repo}</small>
               </a>
             </li>
           ))}
