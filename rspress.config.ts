@@ -8,11 +8,7 @@ export default defineConfig({
   route: { cleanUrls: true },
   search: false,
   themeConfig: {
-    nav: [
-      { text: 'Jobs', link: '/#jobs' },
-      { text: 'Projects', link: '/#projects' },
-      { text: 'Publications', link: '/#publications' },
-    ],
+    darkMode: 'force-dark',
     socialLinks: [
       { icon: 'github', content: 'https://github.com/web-infra-dev' },
     ],
