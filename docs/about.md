@@ -1,9 +1,12 @@
 ---
-layout: post
 title: 字节跳动 Web Infra 团队招聘信息
-author: webinfra
-permalink: /about
+description: 字节跳动 Web Infra 团队介绍、岗位要求和投递方式。
+sidebar: false
 ---
+
+# 字节跳动 Web Infra 团队招聘信息
+
+17 Nov 2023 · [webinfra](/)
 
 [English version](/en/about)
 

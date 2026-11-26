@@ -1,15 +1,14 @@
 {
   "name": "webinfra.org",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:web-infra-dev/webinfra.org.git",
-  "author": "leeight <leeight@gmail.com>",
+  "private": true,
+  "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "jekyll s",
-    "minify:css": "sh -x gen_css.sh"
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview"
   },
   "devDependencies": {
-    "less": "^4.0.0"
+    "@rspress/core": "^2.1.4"
   }
 }

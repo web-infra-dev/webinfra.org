@@ -1,9 +1,12 @@
 ---
-layout: post
 title: Singapore Team is hiring
-author: webinfra
-permalink: /sg
+description: Engineering roles and application details for the Singapore Web Infrastructure team.
+sidebar: false
 ---
+
+# Singapore Team is hiring
+
+30 Jan 2021 · [webinfra](/)
 
 [简体中文版本](/about) 
 
@@ -17,8 +20,9 @@ Web Infra team focuses on building web frameworks and developer tools for ByteDa
 
 Currently we focus on [Modern Web Application solutions](https://zhuanlan.zhihu.com/p/88616149), Browser Kernel, Web Security, JS Engine  etc. We have set up R&D teams in different locations, including Beijing, Shanghai, Hangzhou, Guangzhou, Shenzhen, 🇸🇬Singapore, 🇺🇸Mountain View.
 
-Team blog: <https://zhuanlan.zhihu.com/bytedancer>  
-**Apply now: <webinfra@bytedance.com> / [Online](https://careers.tiktok.com/position/7148569736305019143/detail)**
+Team blog: [https://zhuanlan.zhihu.com/bytedancer](https://zhuanlan.zhihu.com/bytedancer)
+
+**Apply now: [webinfra@bytedance.com](mailto:webinfra@bytedance.com) / [Online](https://careers.tiktok.com/position/7148569736305019143/detail)**
 
 ---
 

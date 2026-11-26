@@ -1,9 +1,12 @@
 ---
-layout: post
 title: Mountain View Team / Seattle Team is hiring
-author: web infra team
-permalink: /en/about
+description: Meet the ByteDance Web Infra team and read about its engineering roles and application process.
+sidebar: false
 ---
+
+# Mountain View Team / Seattle Team is hiring
+
+17 Nov 2023 · [web infra team](/)
 
 [简体中文版本](/about)
 
